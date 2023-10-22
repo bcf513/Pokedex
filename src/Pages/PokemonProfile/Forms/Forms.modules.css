@@ -1,0 +1,37 @@
+#forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* max-height: inherit; */
+  overflow-y: auto;
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: var(--bg-0);
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: auto;
+  /* background-image: url("../../../assets/pokeball-image-no-background.png"); */
+}
+
+.form p {
+  margin: 0;
+}
+
+.form-sprite {
+  background-image: url("../../../assets/pokeball-image-no-background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.form-sprite img {
+  width: 96px;
+}
+
+.pokemon-selected {
+  background-color: yellow;
+}

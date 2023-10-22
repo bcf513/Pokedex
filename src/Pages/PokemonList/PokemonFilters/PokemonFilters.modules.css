@@ -1,0 +1,133 @@
+#filters-modal {
+  background-color: var(--bg-r);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#clear-and-options {
+  display: flex;
+  gap: 5px;
+}
+
+#filters-options {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-0);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.filter-option {
+  display: flex;
+}
+
+.filter-option label {
+  color: black;
+}
+
+.types-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--bg-0);
+  border-radius: 25px;
+  padding: 10px;
+  justify-items: center;
+  gap: 10px;
+}
+
+.type {
+  display: flex;
+  list-style: none;
+  width: 5rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.type p {
+  color: var(--bg-0);
+  text-shadow: 2px 2px black;
+  justify-content: center;
+}
+
+.selected {
+  box-sizing: border-box;
+  border-color: black;
+  border-style: ridge;
+  border-width: 5px;
+}
+
+/* Tipos e suas cores */
+.normal {
+  background-color: #a8a77a; /* Normal */
+}
+
+.fire {
+  background-color: #ee8130; /* Fogo */
+}
+
+.fighting {
+  background-color: #c03028; /* Lutador */
+}
+
+.water {
+  background-color: #6390f0; /* Água */
+}
+
+.flying {
+  background-color: #a890f0; /* Voador */
+}
+
+.grass {
+  background-color: #78c850; /* Grama */
+}
+
+.poison {
+  background-color: #a040a0; /* Veneno */
+}
+
+.electric {
+  background-color: #f8d030; /* Elétrico */
+}
+
+.ground {
+  background-color: #e0c068; /* Terra */
+}
+
+.psychic {
+  background-color: #f85888; /* Psíquico */
+}
+
+.rock {
+  background-color: #b8a038; /* Rocha */
+}
+
+.ice {
+  background-color: #98d8d8; /* Gelo */
+}
+
+.bug {
+  background-color: #a8b820; /* Inseto */
+}
+
+.dragon {
+  background-color: #7038f8; /* Dragão */
+}
+
+.ghost {
+  background-color: #705898; /* Fantasma */
+}
+
+.dark {
+  background-color: #705848; /* Sombrio */
+}
+
+.steel {
+  background-color: #b8b8d0; /* Aço */
+}
+
+.fairy {
+  background-color: #ee99ac; /* Fada */
+}

@@ -1,0 +1,65 @@
+#evolution-chain {
+  display: flex;
+  max-height: 90vh;
+  border-radius: 25px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#evolution-chain p {
+  text-shadow: none;
+  color: black;
+}
+
+.chains {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.chain {
+  background-color: var(--bg-0);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: max-content;
+}
+
+.pokemon_selected {
+  background-color: rgb(212, 212, 21);
+  border-radius: 10px;
+}
+
+.detail p {
+  margin: 0.5rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 9rem;
+}
+
+.details p {
+  display: flex;
+  justify-content: center;
+}
+
+.detail-specifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pokemon-on-chain {
+  background-image: url("../../../assets/pokeball-image-no-background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pokemon-on-chain p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}

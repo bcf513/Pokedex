@@ -1,0 +1,19 @@
+#specie-profile {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: var(--bg-r);
+  padding: 1rem;
+  gap: 5px;
+  max-height: inherit;
+}
+
+#profile-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.pokemon-id-name {
+  display: flex;
+  gap: 1rem;
+}

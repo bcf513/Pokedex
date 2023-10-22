@@ -1,0 +1,34 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-height: 100vh;
+}
+
+.modal-window {
+  background-color: var(--bg-r);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.initial-modal h1 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 4px black;
+  margin: 0.5rem;
+}
+
+.container {
+  padding: 0 5px;
+  background-color: var(--bg-0);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.container p,
+.container span {
+  text-shadow: none;
+  color: black;
+}

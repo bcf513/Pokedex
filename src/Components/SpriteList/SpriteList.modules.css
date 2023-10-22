@@ -1,0 +1,19 @@
+#sprite-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 0;
+  gap: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: var(--bg-0);
+  width: 96px;
+  height: 100%;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+}
+
+#sprite-list li {
+  list-style-type: none;
+}

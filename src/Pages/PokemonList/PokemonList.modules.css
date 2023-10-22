@@ -1,0 +1,29 @@
+#lists-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  width: var(--max-width);
+  gap: 5px;
+}
+
+#search-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  gap: 5px;
+}
+
+#search-div input {
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+#name-and-sprite-lists {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  margin: 0;
+  gap: 10px;
+}
